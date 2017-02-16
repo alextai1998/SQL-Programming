@@ -1,2 +1,2 @@
-2/13/2017
-We finally got our Raspberry Pis~~~~~~~
+2/16/2017
+connected database with RPI~~~~~~
