@@ -1,2 +1,2 @@
-2/16/2017
-connected database with RPI~~~~~~
+2/20/2017
+Today I connected my HTML forms with my PHP file and database. It worked out in the end!
