@@ -1,2 +1,2 @@
-2/20/2017
-Today I connected my HTML forms with my PHP file and database. It worked out in the end!
+3/9/2017
+Worked on encrypting passwords while users register new account into a database. Had trouble connecting to PHPStorm, but everything worked out in the end.
