@@ -1,2 +1,2 @@
-3/9/2017
-Worked on encrypting passwords while users register new account into a database. Had trouble connecting to PHPStorm, but everything worked out in the end.
+3/13/2017
+We continued to work on the password encryption login/registering new users database!
