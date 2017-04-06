@@ -25,7 +25,7 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
       </PATH_ELEMENT>
       <PATH_ELEMENT>
-        <option name="myItemId" value="passwordEncryption" />
+        <option name="myItemId" value="functions" />
         <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
       </PATH_ELEMENT>
     </PATH>
@@ -35,86 +35,7 @@
     <favorites_list name="LoginRegistrationForm" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="true">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8005343d-b928-41a2-a6a1-ef1312eb3966/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="welcome.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/welcome.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="120" column="58" lean-forward="false" selection-start-line="120" selection-start-column="56" selection-end-line="120" selection-end-column="58" />
-              <folding>
-                <marker date="0" expanded="true" signature="2349:2459" ph="SELECT usern... profiles" />
-                <marker date="0" expanded="true" signature="2349:2510" ph="SELECT usern... profiles" />
-                <marker date="0" expanded="true" signature="2648:2826" ph="..." />
-                <marker date="0" expanded="true" signature="2800:2826" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="30" column="56" lean-forward="false" selection-start-line="30" selection-start-column="56" selection-end-line="30" selection-end-column="56" />
-              <folding>
-                <marker date="0" expanded="true" signature="318:364" ph="SELECT email... users" />
-                <marker date="0" expanded="true" signature="421:508" ph="SELECT usern... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/register.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <marker date="0" expanded="true" signature="359:403" ph="SELECT email... users" />
-                <marker date="0" expanded="true" signature="478:527" ph="SELECT usern... users" />
-                <marker date="0" expanded="true" signature="705:810" ph="INSERT INTO users... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/update.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-              <folding>
-                <marker date="0" expanded="true" signature="558:606" ph="SELECT id FR... users" />
-                <marker date="0" expanded="true" signature="829:883" ph="SELECT id FR... department" />
-                <marker date="0" expanded="true" signature="1142:1313" ph="INSERT INTO profiles... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="update_profile.php" pinned="true" current-in-tab="false">
-        <entry file="remoteDeploymentFS://&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/update_profile.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-720">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <marker date="0" expanded="true" signature="613:641" ph="SELECT label... department" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -142,6 +63,7 @@
         <option value="&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/update_profile.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/8005343d-b928-41a2-a6a1-ef1312eb3966/console.sql" />
         <option value="&lt;d12a827a-18c2-4fe2-8b11-d6dd5d0c33b7&gt;/var/www/html/update.php" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b3bb7bf9-8557-4c7a-a316-0f6f0e483d9c/console.sql" />
       </list>
     </option>
   </component>
@@ -171,8 +93,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,11 +216,12 @@
       <workItem from="1489824790157" duration="1026000" />
       <workItem from="1489981747485" duration="24830000" />
       <workItem from="1490142046463" duration="14907000" />
+      <workItem from="1491450534555" duration="5521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52089000" />
+    <option name="totallyTimeSpent" value="57610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -313,12 +236,12 @@
     <frame x="0" y="0" width="1920" height="1196" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22896698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.4968051" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13471779" sideWeight="0.6893116" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22896698" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32971016" sideWeight="0.4968051" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13578275" sideWeight="0.6893116" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.50319487" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17838125" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -355,6 +278,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8005343d-b928-41a2-a6a1-ef1312eb3966/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8005343d-b928-41a2-a6a1-ef1312eb3966/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -430,10 +361,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b3bb7bf9-8557-4c7a-a316-0f6f0e483d9c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="80" column="46" lean-forward="false" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8005343d-b928-41a2-a6a1-ef1312eb3966/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="30" column="53" lean-forward="false" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+        <state relative-caret-position="450">
+          <caret line="30" column="53" lean-forward="true" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
           <folding />
         </state>
       </provider>
