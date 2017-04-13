@@ -19,5 +19,14 @@
       <user-name>alextai</user-name>
       <resolve-scope>sqlClass:alextai,public</resolve-scope>
     </data-source>
+    <data-source name="functionsTask" uuid="b60a87c1-afe0-4a6e-9d22-dabf14e4e776">
+      <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>alextai</user-name>
+      <resolve-scope>sqlClass:alextai,public</resolve-scope>
+    </data-source>
   </component>
 </project>
