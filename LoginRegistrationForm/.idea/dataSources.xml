@@ -17,7 +17,19 @@
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://192.168.3.150:5432/sqlClass</jdbc-url>
+      <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="josephFunction" uuid="6d64726c-c96d-47fb-8203-1eb48be0cea8">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="clementFunction" uuid="67940689-7bc4-4d19-af41-a40c95e0da5a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
     </data-source>
   </component>
 </project>

@@ -25,8 +25,26 @@
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>alextai</user-name>
+      <user-name>Alex</user-name>
       <resolve-scope>sqlClass:alextai,public</resolve-scope>
+    </data-source>
+    <data-source name="josephFunction" uuid="6d64726c-c96d-47fb-8203-1eb48be0cea8">
+      <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Alex</user-name>
+      <resolve-scope>alexdb:public,alex</resolve-scope>
+    </data-source>
+    <data-source name="clementFunction" uuid="67940689-7bc4-4d19-af41-a40c95e0da5a">
+      <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Alex</user-name>
+      <resolve-scope>alexdb:public,alex</resolve-scope>
     </data-source>
   </component>
 </project>
