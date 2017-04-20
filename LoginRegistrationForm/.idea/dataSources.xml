@@ -31,5 +31,23 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="andrewFunction" uuid="088db7a1-d0a4-4b68-a7a4-2d26ac2a8c91">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="annshineFunction" uuid="2f288f28-f76f-4f88-ac27-f03828fe376a">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="sabrinaFunction" uuid="f4d90e72-2657-4ded-8955-20272bc6f46d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://192.168.4.72:5432/alexdb</jdbc-url>
+    </data-source>
   </component>
 </project>

@@ -9,8 +9,8 @@
     </database>
     <schema id="3" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-04-17.13:24:14.624</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1380</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-04-20.12:22:01.726</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1412</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -105,15 +105,15 @@
       <ReturnsSet>1</ReturnsSet>
     </routine>
     <routine id="23" parent="3" name="popstdev">
-      <ObjectId>107013</ObjectId>
-      <StateNumber>1378</StateNumber>
+      <ObjectId>114791</ObjectId>
+      <StateNumber>1410</StateNumber>
       <LanguageName>plpgsql</LanguageName>
       <RoutineKind>function</RoutineKind>
       <ReturnsSet>1</ReturnsSet>
     </routine>
     <routine id="24" parent="3" name="popstdev2">
-      <ObjectId>107014</ObjectId>
-      <StateNumber>1380</StateNumber>
+      <ObjectId>114792</ObjectId>
+      <StateNumber>1412</StateNumber>
       <LanguageName>plpgsql</LanguageName>
       <RoutineKind>function</RoutineKind>
       <ReturnsSet>1</ReturnsSet>
@@ -132,304 +132,319 @@
       <RoutineKind>function</RoutineKind>
       <ReturnsSet>1</ReturnsSet>
     </routine>
-    <routine id="27" parent="3" name="setemail">
+    <routine id="27" parent="3" name="setdomain">
+      <ObjectId>114735</ObjectId>
+      <StateNumber>1388</StateNumber>
+      <LanguageName>plpgsql</LanguageName>
+      <RoutineKind>function</RoutineKind>
+      <ReturnsSet>1</ReturnsSet>
+    </routine>
+    <routine id="28" parent="3" name="setemail">
       <ObjectId>107008</ObjectId>
       <StateNumber>1365</StateNumber>
       <LanguageName>plpgsql</LanguageName>
       <RoutineKind>function</RoutineKind>
     </routine>
-    <routine id="28" parent="3" name="stdev">
+    <routine id="29" parent="3" name="stdev">
       <ObjectId>106835</ObjectId>
       <StateNumber>1291</StateNumber>
       <LanguageName>plpgsql</LanguageName>
       <RoutineKind>function</RoutineKind>
       <ReturnsSet>1</ReturnsSet>
     </routine>
-    <column id="29" parent="13" name="category_id">
+    <column id="30" parent="13" name="category_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1362</StateNumber>
       <DefaultExpression>nextval(&apos;category_category_id_seq&apos;::regclass)</DefaultExpression>
     </column>
-    <column id="30" parent="13" name="category_name">
+    <column id="31" parent="13" name="category_name">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <StateNumber>1362</StateNumber>
     </column>
-    <column id="31" parent="13" name="domain_id">
+    <column id="32" parent="13" name="domain_id">
       <Position>3</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1362</StateNumber>
     </column>
-    <index id="32" parent="13" name="category_pkey">
+    <index id="33" parent="13" name="category_pkey">
       <ObjectId>106975</ObjectId>
       <ColNames>category_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="33" parent="13" name="category_pkey">
+    <key id="34" parent="13" name="category_pkey">
       <ObjectId>106976</ObjectId>
       <ColNames>category_id</ColNames>
       <UnderlyingIndexName>category_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="34" parent="13" name="category_domain_id_fkey">
+    <foreign-key id="35" parent="13" name="category_domain_id_fkey">
       <ObjectId>106977</ObjectId>
       <ColNames>domain_id</ColNames>
       <RefTableName>domain</RefTableName>
       <RefKeyName>domain_pkey</RefKeyName>
       <RefColNames>domain_id</RefColNames>
     </foreign-key>
-    <column id="35" parent="14" name="domain_id">
+    <column id="36" parent="14" name="domain_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1361</StateNumber>
       <DefaultExpression>nextval(&apos;domain_domain_id_seq&apos;::regclass)</DefaultExpression>
     </column>
-    <column id="36" parent="14" name="domain_sufix">
+    <column id="37" parent="14" name="domain_sufix">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <StateNumber>1361</StateNumber>
     </column>
-    <index id="37" parent="14" name="domain_pkey">
+    <index id="38" parent="14" name="domain_pkey">
       <ObjectId>106967</ObjectId>
       <ColNames>domain_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="38" parent="14" name="domain_pkey">
+    <key id="39" parent="14" name="domain_pkey">
       <ObjectId>106968</ObjectId>
       <ColNames>domain_id</ColNames>
       <UnderlyingIndexName>domain_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <column id="39" parent="15" name="grade_id">
+    <column id="40" parent="15" name="grade_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1364</StateNumber>
       <DefaultExpression>nextval(&apos;grades_grade_id_seq&apos;::regclass)</DefaultExpression>
     </column>
-    <column id="40" parent="15" name="student_id">
+    <column id="41" parent="15" name="student_id">
       <Position>2</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1364</StateNumber>
     </column>
-    <column id="41" parent="15" name="score">
+    <column id="42" parent="15" name="score">
       <Position>3</Position>
       <DataType>integer|0</DataType>
       <StateNumber>1364</StateNumber>
     </column>
-    <column id="42" parent="15" name="scoreletter">
+    <column id="43" parent="15" name="scoreletter">
       <Position>4</Position>
       <DataType>varchar(5)|0</DataType>
       <StateNumber>1364</StateNumber>
     </column>
-    <column id="43" parent="15" name="date">
+    <column id="44" parent="15" name="date">
       <Position>5</Position>
       <DataType>timestamp|0</DataType>
       <StateNumber>1364</StateNumber>
     </column>
-    <index id="44" parent="15" name="grades_pkey">
+    <index id="45" parent="15" name="grades_pkey">
       <ObjectId>107001</ObjectId>
       <ColNames>grade_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="45" parent="15" name="grades_pkey">
+    <key id="46" parent="15" name="grades_pkey">
       <ObjectId>107002</ObjectId>
       <ColNames>grade_id</ColNames>
       <UnderlyingIndexName>grades_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="46" parent="15" name="grades_student_id_fkey">
+    <foreign-key id="47" parent="15" name="grades_student_id_fkey">
       <ObjectId>107003</ObjectId>
       <ColNames>student_id</ColNames>
       <RefTableName>students</RefTableName>
       <RefKeyName>students_pkey</RefKeyName>
       <RefColNames>student_id</RefColNames>
     </foreign-key>
-    <column id="47" parent="16" name="student_id">
+    <column id="48" parent="16" name="student_id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
       <StateNumber>1363</StateNumber>
       <DefaultExpression>nextval(&apos;students_student_id_seq&apos;::regclass)</DefaultExpression>
     </column>
-    <column id="48" parent="16" name="firstname">
+    <column id="49" parent="16" name="firstname">
       <Position>2</Position>
       <DataType>varchar(50)|0</DataType>
       <StateNumber>1363</StateNumber>
     </column>
-    <column id="49" parent="16" name="lastname">
+    <column id="50" parent="16" name="lastname">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <StateNumber>1363</StateNumber>
     </column>
-    <column id="50" parent="16" name="category_id">
+    <column id="51" parent="16" name="category_id">
       <Position>4</Position>
       <DataType>integer|0</DataType>
       <StateNumber>1363</StateNumber>
     </column>
-    <column id="51" parent="16" name="email">
+    <column id="52" parent="16" name="email">
       <Position>5</Position>
       <DataType>varchar(50)|0</DataType>
       <StateNumber>1363</StateNumber>
     </column>
-    <column id="52" parent="16" name="created">
+    <column id="53" parent="16" name="created">
       <Position>6</Position>
       <DataType>timestamp|0</DataType>
       <StateNumber>1363</StateNumber>
     </column>
-    <index id="53" parent="16" name="students_pkey">
+    <index id="54" parent="16" name="students_pkey">
       <ObjectId>106988</ObjectId>
       <ColNames>student_id</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="54" parent="16" name="students_pkey">
+    <key id="55" parent="16" name="students_pkey">
       <ObjectId>106989</ObjectId>
       <ColNames>student_id</ColNames>
       <UnderlyingIndexName>students_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
-    <foreign-key id="55" parent="16" name="students_category_id_fkey">
+    <foreign-key id="56" parent="16" name="students_category_id_fkey">
       <ObjectId>106990</ObjectId>
       <ColNames>category_id</ColNames>
       <RefTableName>category</RefTableName>
       <RefKeyName>category_pkey</RefKeyName>
       <RefColNames>category_id</RefColNames>
     </foreign-key>
-    <argument id="56" parent="17" name="id">
+    <argument id="57" parent="17" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
     </argument>
-    <argument id="57" parent="17" name="dte">
+    <argument id="58" parent="17" name="dte">
       <Position>2</Position>
       <DataType>date|0</DataType>
     </argument>
-    <argument id="58" parent="17">
+    <argument id="59" parent="17">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(score varchar, sname varchar)|0</DataType>
     </argument>
-    <argument id="59" parent="18" name="inputs">
+    <argument id="60" parent="18" name="inputs">
       <Position>1</Position>
       <DataType>numeric[]|0</DataType>
     </argument>
-    <argument id="60" parent="18">
+    <argument id="61" parent="18">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>setof numeric|0</DataType>
     </argument>
-    <argument id="61" parent="19" name="grades">
+    <argument id="62" parent="19" name="grades">
       <Position>1</Position>
       <DataType>integer|0</DataType>
     </argument>
-    <argument id="62" parent="19">
+    <argument id="63" parent="19">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>varchar|0</DataType>
     </argument>
-    <argument id="63" parent="20" name="id">
+    <argument id="64" parent="20" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
     </argument>
-    <argument id="64" parent="20" name="date">
+    <argument id="65" parent="20" name="date">
       <Position>2</Position>
       <DataType>date|0</DataType>
     </argument>
-    <argument id="65" parent="20" name="inputs">
+    <argument id="66" parent="20" name="inputs">
       <Position>3</Position>
       <DataType>numeric[]|0</DataType>
     </argument>
-    <argument id="66" parent="20">
+    <argument id="67" parent="20">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>void|0</DataType>
     </argument>
-    <argument id="67" parent="21" name="firstname">
+    <argument id="68" parent="21" name="firstname">
       <Position>1</Position>
       <DataType>varchar|0</DataType>
     </argument>
-    <argument id="68" parent="21" name="lastname">
+    <argument id="69" parent="21" name="lastname">
       <Position>2</Position>
       <DataType>varchar|0</DataType>
     </argument>
-    <argument id="69" parent="21" name="role">
+    <argument id="70" parent="21" name="role">
       <Position>3</Position>
       <DataType>varchar|0</DataType>
     </argument>
-    <argument id="70" parent="21">
+    <argument id="71" parent="21">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>void|0</DataType>
     </argument>
-    <argument id="71" parent="22" name="id">
+    <argument id="72" parent="22" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
     </argument>
-    <argument id="72" parent="22" name="dte">
+    <argument id="73" parent="22" name="dte">
       <Position>2</Position>
       <DataType>date|0</DataType>
     </argument>
-    <argument id="73" parent="22">
+    <argument id="74" parent="22">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(std varchar, sname varchar, popmean numeric)|0</DataType>
     </argument>
-    <argument id="74" parent="23" name="inputs">
+    <argument id="75" parent="23" name="inputs">
       <Position>1</Position>
       <DataType>numeric[]|0</DataType>
     </argument>
-    <argument id="75" parent="23">
+    <argument id="76" parent="23">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(std varchar, popmean numeric)|0</DataType>
     </argument>
-    <argument id="76" parent="24" name="id">
+    <argument id="77" parent="24" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
     </argument>
-    <argument id="77" parent="24" name="dte">
+    <argument id="78" parent="24" name="dte">
       <Position>2</Position>
       <DataType>date|0</DataType>
     </argument>
-    <argument id="78" parent="24">
+    <argument id="79" parent="24">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(std varchar, sname varchar, popmean numeric)|0</DataType>
     </argument>
-    <argument id="79" parent="25">
+    <argument id="80" parent="25">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(score varchar)|0</DataType>
     </argument>
-    <argument id="80" parent="26" name="dte">
+    <argument id="81" parent="26" name="dte">
       <Position>1</Position>
       <DataType>date|0</DataType>
     </argument>
-    <argument id="81" parent="26">
+    <argument id="82" parent="26">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(score varchar)|0</DataType>
     </argument>
-    <argument id="82" parent="27" name="firstname">
+    <argument id="83" parent="27" name="role">
+      <Position>1</Position>
+      <DataType>varchar|0</DataType>
+    </argument>
+    <argument id="84" parent="27">
+      <ArgumentDirection>T</ArgumentDirection>
+      <DataType>table(category_id integer, category_name varchar, domain_id integer, domain_suffix varchar)|0</DataType>
+    </argument>
+    <argument id="85" parent="28" name="firstname">
       <Position>1</Position>
       <DataType>text|0</DataType>
     </argument>
-    <argument id="83" parent="27" name="lastname">
+    <argument id="86" parent="28" name="lastname">
       <Position>2</Position>
       <DataType>text|0</DataType>
     </argument>
-    <argument id="84" parent="27" name="dmn">
+    <argument id="87" parent="28" name="dmn">
       <Position>3</Position>
       <DataType>text|0</DataType>
       <DefaultExpression>&apos;pas.org&apos;::text</DefaultExpression>
     </argument>
-    <argument id="85" parent="27">
+    <argument id="88" parent="28">
       <ArgumentDirection>R</ArgumentDirection>
       <DataType>text|0</DataType>
     </argument>
-    <argument id="86" parent="28" name="id">
+    <argument id="89" parent="29" name="id">
       <Position>1</Position>
       <DataType>integer|0</DataType>
     </argument>
-    <argument id="87" parent="28" name="dte">
+    <argument id="90" parent="29" name="dte">
       <Position>2</Position>
       <DataType>date|0</DataType>
     </argument>
-    <argument id="88" parent="28">
+    <argument id="91" parent="29">
       <ArgumentDirection>T</ArgumentDirection>
       <DataType>table(std varchar, sname varchar)|0</DataType>
     </argument>

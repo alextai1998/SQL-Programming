@@ -35,9 +35,36 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
       <user-name>Alex</user-name>
-      <resolve-scope>alexdb:public,alex</resolve-scope>
+      <resolve-scope>alexdb:alex,public</resolve-scope>
     </data-source>
     <data-source name="clementFunction" uuid="67940689-7bc4-4d19-af41-a40c95e0da5a">
+      <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Alex</user-name>
+      <resolve-scope>alexdb:alex,public</resolve-scope>
+    </data-source>
+    <data-source name="andrewFunction" uuid="088db7a1-d0a4-4b68-a7a4-2d26ac2a8c91">
+      <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Alex</user-name>
+      <resolve-scope>alexdb:public,alex</resolve-scope>
+    </data-source>
+    <data-source name="annshineFunction" uuid="2f288f28-f76f-4f88-ac27-f03828fe376a">
+      <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>Alex</user-name>
+      <resolve-scope>alexdb:public,alex</resolve-scope>
+    </data-source>
+    <data-source name="sabrinaFunction" uuid="f4d90e72-2657-4ded-8955-20272bc6f46d">
       <database-info product="PostgreSQL" version="9.4.10" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
         <identifier-quote-string>&quot;</identifier-quote-string>
       </database-info>
